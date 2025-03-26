@@ -99,6 +99,10 @@ async function deleteMovie(movieId, li) {
   }
 }
 
-await loadMovies();
-await loadMovieDetails(1);
+async function init() {
+    await loadMovies();
+    await loadMovieDetails(1);
+}
+init();
+
 });
