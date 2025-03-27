@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", async () => {
-  const baseUrl = "http://localhost:3000/films";
+  const baseUrl = "https://better-challenge.onrender.com/films";
   const filmsList = document.getElementById("films");
   const buyButton = document.getElementById("buy-ticket");
 
