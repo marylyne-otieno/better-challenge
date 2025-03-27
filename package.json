@@ -6,11 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-
-"dependencies": {
-    "json-server": "^0.17.4"
-},
-
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/marylyne-otieno/better-challenge.git"
